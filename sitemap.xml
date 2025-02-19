@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>https://example.com/</loc>
+  <lastmod>2025-01-19T13:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/2025/</loc>
+  <lastmod>2025-01-19T13:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/archive.html</loc>
+  <lastmod>2025-02-01T14:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/blog/ion-imaging-helical-psf/</loc>
+  <lastmod>2025-01-26T03:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/blog/twin-airy-psf-for-in-vivo-imaging/</loc>
+  <lastmod>2025-01-26T04:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/categories/</loc>
+  <lastmod>2025-01-19T13:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/galleries/</loc>
+  <lastmod>2025-01-19T13:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/listings/</loc>
+  <lastmod>2025-01-19T13:18:00Z</lastmod>
+ </url>
+</urlset>
