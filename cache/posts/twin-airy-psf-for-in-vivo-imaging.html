@@ -1,0 +1,60 @@
+<div class="cell border-box-sizing text_cell rendered" id="cell-id=7ac1edb2"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="%E5%9F%BA%E4%BA%8E%E5%AD%AA%E7%94%9F%E8%89%BE%E9%87%8C%E5%85%89%E7%82%B9%E6%89%A9%E6%95%A3%E5%87%BD%E6%95%B0%E7%9A%84%E5%A4%A7%E8%8C%83%E5%9B%B4%E5%BE%AE%E8%A7%82%E7%B2%92%E5%AD%90%E5%AE%9A%E4%BD%8D%E6%88%90%E5%83%8F">基于孪生艾里光点扩散函数的大范围微观粒子定位成像<a class="anchor-link" href="#%E5%9F%BA%E4%BA%8E%E5%AD%AA%E7%94%9F%E8%89%BE%E9%87%8C%E5%85%89%E7%82%B9%E6%89%A9%E6%95%A3%E5%87%BD%E6%95%B0%E7%9A%84%E5%A4%A7%E8%8C%83%E5%9B%B4%E5%BE%AE%E8%A7%82%E7%B2%92%E5%AD%90%E5%AE%9A%E4%BD%8D%E6%88%90%E5%83%8F">¶</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered" id="cell-id=e89a626d"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="%E6%9C%AC%E6%96%87%E8%AF%91%E8%87%AA-Y.-Zhou,-P.-Zammit,-V.-Zickus,-et-al.,-Physical-Review-Letters-124,-198104-(2020)">本文译自 Y. Zhou, P. Zammit, V. Zickus, et al., Physical Review Letters 124, 198104 (2020)<a class="anchor-link" href="#%E6%9C%AC%E6%96%87%E8%AF%91%E8%87%AA-Y.-Zhou,-P.-Zammit,-V.-Zickus,-et-al.,-Physical-Review-Letters-124,-198104-(2020)">¶</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered" id="cell-id=e1b76705"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="%E6%91%98%E8%A6%81">摘要<a class="anchor-link" href="#%E6%91%98%E8%A6%81">¶</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered" id="cell-id=a152615c"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>通过光学显微镜阱对单个点光源的精确定位实现了纳米级分辨率的单分子成像和微观动态生命过程成像。此工作提出一种新型荧光定位显微镜技术，通过孪生艾里光束实现高精度点光源定位成像，相比于传统方法，该技术具有拓展的焦深、高光子效率以及对高粒子数密度场景成像的潜力。我们在1.4NA的系统上实现7µm焦深上30nm的定位成像精度。为了展示该方法在活体成像中的应用潜力，我们在活体斑马鱼中实现了全身血流示踪和血管网络三维重建。</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered" id="cell-id=37bc7645"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="%E5%BC%95%E5%85%A5">引入<a class="anchor-link" href="#%E5%BC%95%E5%85%A5">¶</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered" id="cell-id=deca6a88"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>对单个点光源的精确定位探测能力对生物医学研究具有重要意义，主要应用涉及超分辨率成像显微镜[1,2]、活细胞中的单分子示踪[3,4]、细胞牵引力显微镜[5,6]、以及活体流场测量等[7-9]。在这些应用中，点光源可以被用作微观三维结构的标记、流体中的示踪粒子或者微观作用力的标识。三维点光源定位成像通常利用点扩散函数图像随光的传播而产生的变化实现。例如，像散点扩散函数[3,10]和双螺旋点扩散函数[11]，它们已经被广泛应用于SMT和SR显微镜领域，以探索细胞中的结构和动态过程。然而，此类应用所需的高数值孔径将这些技术的焦深范围限制在3µm以下[10-12]，小于大多数细胞等相关结构的尺寸。一个相关的例子是活体心血管系统成像，这往往需要数百微米的轴向探测范围。</p>
+<p>为此，多种类型的点扩散函数被相继提出。其中tetrapod点扩散函数具有最大的“焦深-精度比”（6µm的焦深上实现12nm/21nm的横向/轴向定位精度）。然而，tetrapod点扩散函数需要基于相位恢复的极大似然估计算法实现图像信息提取，对算力要求高；同时，当面临PSF图像重叠的情况时，定位精度会相应地下降。</p>
+<p>艾里光束具有横向自加速性，可用于粒子三维位置的编码。其“无衍射”的传播特性使其具有极大的拓展焦深；艾里光束的此特性已被用于在“光片”显微镜中增加视场大小。Jia等人报道了一种用于点光源成像的改造型艾里光束（称作self-bending PSF），该技术由于在光瞳面截断了部分荧光，整体光效率受到限制。此外，艾里光束在焦平面两侧的对称性使得只有一半的焦深可以被利用。用艾里光束来编码点光源三维信息还不可避免地需要两个成像光路以获取PSF图像的横向偏移量，这无疑增加了光学系统的复杂度和标定的复杂度。</p>
+<p>我们设计出一种“孪生艾里光”相位调制函数，可以在像空间产生两个镜像的艾里光束，如图1所示。通过图像去卷积，点扩散函数可转化为两个斑点的形式，其间距随点光源的轴向深度而变化，从而在艾里光固有的大焦深上实现点光源的三维定位成像。该方法利用单个折射型相位掩模版（不依赖分光[12]、无复杂衍射表面[17]），可实现接近100%的光效率。该方法与偏振不敏感，且校准起来较为简单。相较于已有基于艾里光束的技术，该方法在整个深度范围内具有较为均匀的成像精度，并且在焦平面两侧具有非对称的光场分布，从而避免了传统艾里光束在焦平面两侧不可区分的弊端。</p>
+<p>以上优点保证了该方法具有拓展的探测焦深和定位精度，并且具有高粒子数密度成像的潜力，为单分子示踪和动态生物过程成像提供了有力工具。为了验证该方法的有效性，我们在活体斑马鱼中对注射进血液循环的荧光微粒进行示踪，重构出斑马鱼整个三维血管网络。实验表明，在20X, 0.5NA的光学系统上可以实现100µm的焦深和40nm的定位精度。同时，我们还在60X, 1.45NA的光学系统上实现了30nm的精度和7µm的焦深，对应信号光子数水平约6800个/粒子，背景光子数约9个/像素点；展示了该技术在单分子示踪实验和超分辨率成像方面的应用潜力。</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered" id="cell-id=e39f7a72"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="%E6%96%B9%E6%B3%95">方法<a class="anchor-link" href="#%E6%96%B9%E6%B3%95">¶</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered" id="cell-id=51e5fcb4"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>通过设计光瞳函数可对成像系统的点扩散函数进行按需设计，以满足特定应用场景的要求，称作点扩散函数整形。为了用单个光瞳函数调制产生孪生艾里光束，我们将光瞳函数设计成为具有</p>
+</div>
+</div>
+</div>
