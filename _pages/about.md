@@ -1,24 +1,21 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "研究兴趣 Research Interest"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
+研究聚焦光场空间自由度的调控，并利用空间结构光场的特殊性质实现对微观物理系统和生命系统的高精度成像与操控。
 My research focus on the manipulation of light fields and utilizing their properties to better resolve the microscopic world, ranging from biomedical to physical systems.
 
-A data-driven personal website
+代表作 Selected Publications
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+1. Y. Zhou, M. Zhang, W. Su et al., [Tracking the extensive three-dimensional motion of single ions by an engineered point-spread function, Nature Communications](https://www.nature.com/articles/s41467-024-49701-3) `15` 6483 (2024) 湖南省量子科技奖一等奖
+2. Y. Zhou, V. Zickus, P. Zammit et al., [Twin-Airy Point-Spread Function for Extended-Volume Particle Localization, Physical Review Letters] (https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.198104)`124` 198104 (2020) 主编推荐文章/ APS Physics专题报道
+3. Y. Zhou, M. Handley, G. Carles and A. Harvey, [Advances in 3D single particle localization microscopy, APL Photonics] (https://pubs.aip.org/aip/app/article/4/6/060901/1062452/Advances-in-3D-single-particle-localization) `4` 060901 (2019) 封面文章
+4. X. Tang, Y. Shen, X. Zhang, Y. Zhou`*` and, H. Zou`*`, [Simultaneous stabilization of multiple lasers using a locked transfer cavity via wavelength-division multiplexing, Optics and Laser Technology](https://www.sciencedirect.com/science/article/abs/pii/S0030399224018097) `183` 112351 (2025)
 
 Getting started
 ======
