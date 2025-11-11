@@ -18,13 +18,13 @@ My research focus on the manipulation of light fields and utilizing their proper
 代表作 Selected Publications
 ======
 
-1. Y. Zhou, M. Zhang, W. Su et al., [Tracking the extensive three-dimensional motion of single ions by an engineered point-spread function](https://www.nature.com/articles/s41467-024-49701-3) , **Nature Communications** 15 6483 (2024)  
+1. <u>Y. Zhou</u>, M. Zhang, W. Su et al., [Tracking the extensive three-dimensional motion of single ions by an engineered point-spread function](https://www.nature.com/articles/s41467-024-49701-3) , **Nature Communications** 15 6483 (2024)  
 湖南省量子科技奖一等奖
-2. Y. Zhou, V. Zickus, P. Zammit et al., [Twin-Airy Point-Spread Function for Extended-Volume Particle Localization](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.198104) , **Physical Review Letters** 124 198104 (2020)  
+2. <u>Y. Zhou</u>, V. Zickus, P. Zammit et al., [Twin-Airy Point-Spread Function for Extended-Volume Particle Localization](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.198104) , **Physical Review Letters** 124 198104 (2020)  
 主编推荐文章/ APS Physics专题报道
-3. Y. Zhou, M. Handley, G. Carles and A. Harvey, [Advances in 3D single particle localization microscopy](https://pubs.aip.org/aip/app/article/4/6/060901/1062452/Advances-in-3D-single-particle-localization) , **APL Photonics** 4 060901 (2019)  
+3. <u>Y. Zhou</u>, M. Handley, G. Carles and A. Harvey, [Advances in 3D single particle localization microscopy](https://pubs.aip.org/aip/app/article/4/6/060901/1062452/Advances-in-3D-single-particle-localization) , **APL Photonics** 4 060901 (2019)  
 封面文章
-4. X. Tang, Y. Shen, X. Zhang, Y. Zhou<sup>*</sup> and, H. Zou<sup>*</sup>, [Simultaneous stabilization of multiple lasers using a locked transfer cavity via wavelength-division multiplexing](https://www.sciencedirect.com/science/article/abs/pii/S0030399224018097) , **Optics and Laser Technology** 183 112351 (2025)
+4. X. Tang, Y. Shen, X. Zhang, <u>Y. Zhou</u><sup>*</sup> and, H. Zou<sup>*</sup>, [Simultaneous stabilization of multiple lasers using a locked transfer cavity via wavelength-division multiplexing](https://www.sciencedirect.com/science/article/abs/pii/S0030399224018097) , **Optics and Laser Technology** 183 112351 (2025)
 
 主持项目 Selected Funds
 ======

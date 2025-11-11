@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "周勇壮 (Yongzhuang ZHOU)"
   pronouns         : # example: "she/her"  
-  bio              : "副研究员，硕士生导师"
+  bio              : "副研究员 Associate Professor"
   location         : "CS"
   employer         : "null"
   uri              : # URL
@@ -35,10 +35,10 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=RhWU2ZYAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-4296-0726"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -135,7 +135,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :  #&twitter
 facebook:
   username               :
   app_id                 :
