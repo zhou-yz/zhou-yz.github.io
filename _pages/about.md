@@ -10,6 +10,11 @@ redirect_from:
 
 My research focus on the manipulation of light fields and utilizing their properties to better resolve the microscopic world, ranging from biomedical to physical systems.
 
+<video width="320" height="240" controls>
+  <source src="/images/video1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 代表作 Selected Publications
 ======
 
@@ -26,16 +31,3 @@ My research focus on the manipulation of light fields and utilizing their proper
 1. 国家自然科学基金 面上项目 基于动态全息光镊的三维无缺陷冷原子阵列制备 2025-2028
 2. 国家自然科学基金 青年项目 大焦深、高精度的三维空间点光源定位成像研究 2022-2024
 3. 湖南省科技创新计划 湖湘青年英才项目 2023-2026
-
-
-<video width="320" height="240" controls>
-  <source src="video1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-##Create content & metadata
-##------
-##For site content
-
-##**Markdown generator**
-##qwqerq
