@@ -10,7 +10,7 @@ redirect_from:
 
 My research focus on the manipulation of light fields and utilizing their properties to better resolve the microscopic world, ranging from biomedical to physical systems.
 
-![A beautiful sunset over the ocean](images/bio-photo.png "place holder")
+![A beautiful sunset over the ocean](images/bio-photo.jpg "place holder")
 
 代表作 Selected Publications
 ======
