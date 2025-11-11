@@ -10,10 +10,7 @@ redirect_from:
 
 My research focus on the manipulation of light fields and utilizing their properties to better resolve the microscopic world, ranging from biomedical to physical systems.
 
-<video width="320" height="240" controls>
-  <source src="/images/video1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![A beautiful sunset over the ocean](images/bio-photo.png "place holder")
 
 代表作 Selected Publications
 ======
