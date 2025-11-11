@@ -23,7 +23,7 @@ repository               : "zhou-yz/zhou-yz.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/apple-touch-icon-180x180.png"
+  avatar           : "apple-touch-icon-180x180.png"
   name             : "Y ZHOU"
   pronouns         : # example: "she/her"  
   bio              : "--short--bio--"
