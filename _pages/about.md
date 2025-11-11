@@ -29,7 +29,7 @@ My research focus on the manipulation of light fields and utilizing their proper
 
 
 <video width="320" height="240" controls>
-  <source src="/images/video1.mp4" type="video/mp4">
+  <source src="video1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
