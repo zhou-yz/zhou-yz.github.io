@@ -6,29 +6,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
-研究聚焦光场空间自由度的调控，并利用空间结构光场的特殊性质实现对微观物理系统和生命系统的高精度成像与操控。
+研究聚焦光场空间自由度的调控，并利用空间结构光场的特殊性质实现对微观物理系统和生命系统的高精度成像与操控。\\ 
 My research focus on the manipulation of light fields and utilizing their properties to better resolve the microscopic world, ranging from biomedical to physical systems.
 
 代表作 Selected Publications
 ======
 
-1. Y. Zhou, M. Zhang, W. Su et al., [Tracking the extensive three-dimensional motion of single ions by an engineered point-spread function, Nature Communications](https://www.nature.com/articles/s41467-024-49701-3) `15` 6483 (2024) 湖南省量子科技奖一等奖
-2. Y. Zhou, V. Zickus, P. Zammit et al., [Twin-Airy Point-Spread Function for Extended-Volume Particle Localization, Physical Review Letters] (https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.198104)`124` 198104 (2020) 主编推荐文章/ APS Physics专题报道
-3. Y. Zhou, M. Handley, G. Carles and A. Harvey, [Advances in 3D single particle localization microscopy, APL Photonics] (https://pubs.aip.org/aip/app/article/4/6/060901/1062452/Advances-in-3D-single-particle-localization) `4` 060901 (2019) 封面文章
-4. X. Tang, Y. Shen, X. Zhang, Y. Zhou`*` and, H. Zou`*`, [Simultaneous stabilization of multiple lasers using a locked transfer cavity via wavelength-division multiplexing, Optics and Laser Technology](https://www.sciencedirect.com/science/article/abs/pii/S0030399224018097) `183` 112351 (2025)
+1. Y. Zhou, M. Zhang, W. Su et al., [Tracking the extensive three-dimensional motion of single ions by an engineered point-spread function](https://www.nature.com/articles/s41467-024-49701-3) , Nature Communications 15 6483 (2024) 湖南省量子科技奖一等奖
+2. Y. Zhou, V. Zickus, P. Zammit et al., [Twin-Airy Point-Spread Function for Extended-Volume Particle Localization](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.198104) , Physical Review Letters 124 198104 (2020) 主编推荐文章/ APS Physics专题报道
+3. Y. Zhou, M. Handley, G. Carles and A. Harvey, [Advances in 3D single particle localization microscopy](https://pubs.aip.org/aip/app/article/4/6/060901/1062452/Advances-in-3D-single-particle-localization) , APL Photonics 4 060901 (2019) 封面文章
+4. X. Tang, Y. Shen, X. Zhang, Y. Zhou`*` and, H. Zou`*`, [Simultaneous stabilization of multiple lasers using a locked transfer cavity via wavelength-division multiplexing](https://www.sciencedirect.com/science/article/abs/pii/S0030399224018097) , Optics and Laser Technology 183 112351 (2025)
 
-Getting started
+主持项目
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+1. 国家自然科学基金 面上项目 2025-2028
+2. 国家自然科学基金 青年项目 2022-2024
+3. 湖湘青年英才项目 2023-2026
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
 Create content & metadata
 ------
