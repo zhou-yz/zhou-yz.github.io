@@ -1,8 +1,8 @@
 ---
-title: "国家级大创项目：原子里德堡态研究"
+title: "湖南省大学生物理竞赛一等奖"
 collection: teaching
-type: "马xx"
-permalink: /teaching/2015-spring-teaching-2
+type: "杨xx"
+permalink: /teaching/2015-spring-teaching-3
 #venue: "University 1, Department"
 date: 2025
 #location: "City, Country"
