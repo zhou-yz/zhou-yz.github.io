@@ -1,18 +1,17 @@
 ---
 permalink: /
-title: "研究兴趣 Research Interest"
+title: "简介"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-研究聚焦光场空间自由度的调控，并利用空间结构光场的特殊性质实现对微观物理系统和生命系统的高精度成像与操控。  
-
+研究方向聚焦光场空间自由度的调控，并利用空间结构光场的特殊性质实现对微观物理系统和生命系统的高精度成像与操控。
 My research focus on the manipulation of light fields and utilizing their properties to better resolve the microscopic world, ranging from biomedical to physical systems.
 
 ![Structured light in cold atom research and biomedical research](images/research-highlights.png "place holder")
 
-代表作 Selected Publications
+代表论文 Selected Publications
 ======
 
 1. <u>Y. Zhou</u>, M. Zhang, W. Su et al., [Tracking the extensive three-dimensional motion of single ions by an engineered point-spread function](https://www.nature.com/articles/s41467-024-49701-3) , **Nature Communications** 15 6483 (2024)  
